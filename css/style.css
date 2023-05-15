@@ -1,0 +1,47 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+.container{
+    max-width: 50vw;
+    background-color: rgb(184, 16, 16); 
+    /* background-image: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg); */
+    margin: auto;
+    height: 100vh;
+    max-height: 60vh;
+    overflow: scroll;
+
+}
+.msg{
+    background-color: skyblue;
+    width:24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.left{
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+}
+.right{
+    display: block;
+    float: right;
+    clear: both;
+}
+/* .msgInp{
+
+} */
+#send-container{
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width:50vw ;
+   
+
+}
